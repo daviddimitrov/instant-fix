@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Instant Fix - Über Mich{% endblock %}
+
+{% block body %}
+        <div class="rightside align-items-top">
+            <div class="row no-gutters">
+                <div class="col-xl-7 col-lg-12">
+                    <header>
+                    <h2>Hannes Liebsch<br/>
+                        <small class="text-muted">Ihr Tischlergeselle auf dem Lastenrad</small></h2>
+                        <p>Ich bin gelernter Tischler und spezialisiere mich auf die Reparatur und Instandhaltung von Fenstern, Türen und ähnlichen Bauelementen.</p>
+                    </header>
+                    <section>
+                        <h5>Anfertigung nach Maß</h5>
+                        <p>Bei mir finden Sie keine Massenware. Ich stelle alle Teile maßgefertigt nach Absprache mit meinen Kund:innen her.</p>
+                    </section>
+                    <section>
+                        <h5>Meine Projekte</h5>
+                        <p>Reparatur und Instandhaltung von Fenstern, Türen, Toren, Treppen und anderen Bauelementen vorrangig aus Holz. Individuelle Beratung zu anderen Projekten möglich</p>
+                    </section>
+                    <section>
+                        <h5>Ihr nachhaltiger Tischlergeselle in Leipzig</h5>
+                        <p>Die Umwelt liegt mir am Herzen. Daher nutze ich als vorrangiges Transportmittel mein Lastenrad.<br/>
+                        Für Aufträge im Leipziger Umland greife ich auf nachhaltige Transportwege zurück.</p>
+                    </section>
+                    <footer id="call-to-action" class="d-none d-md-block">
+                        <h5>Wie kann ich Ihnen helfen?</h5>
+                        <button type="button" data-toggle="modal" data-target="#contactModal" class="btn btn-success btn-md">Kontaktieren Sie mich noch heute!</button>
+                    </footer>
+                </div>
+                <div class="col-xl-5 col-lg-12">
+                    <img class="d-none d-xl-block" id="image-about-us" src="{{ asset('images/hannes_street.png') }}" alt="main">
+                </div>
+            </div>
+        </div>
+    </div> 
+</div> 
+{% endblock %}

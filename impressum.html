@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Instant Fix - Impressum{% endblock %}
+
+{% block body %}
+        <div class="rightside align-items-top">
+            <h2 class="mb-4">Impressum</h2>
+
+            <div class="mb-4">
+                <h5 class="h5">Angaben gemäß § 5 TMG</h5>
+                <p>
+                    <strong>Hannes Liebsch</strong><br>
+                    Hausmeister- und Reparaturservice<br>
+                    Verkauf von individuellen Haushaltsgegenständen aus Holz<br>
+                    Brandvorwerkstr. 43<br>
+                    04275 Leipzig
+                </p>
+            </div>
+
+            <div class="mb-4">
+                <h5 class="h5">Kontakt</h5>
+                <p>
+                    Telefon: <a href="tel:+4934122731851" class="text-decoration-none">+49 (0) 341 22731851</a><br>
+                    E-Mail: <a href="mailto:info@instant-fix.de" class="text-decoration-none">info@instant-fix.de</a>
+                </p>
+            </div>
+
+            <div class="mb-4">
+                <h5 class="h5">EU-Streitschlichtung</h5>
+                <p>
+                    Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
+                    <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">https://ec.europa.eu/consumers/odr/</a>.<br>
+                    Unsere E-Mail-Adresse finden Sie oben im Impressum.
+                </p>
+            </div>
+
+            <div class="mb-4">
+                <h5 class="h5">Verbraucher­streit­beilegung / Universal­schlichtungs­stelle</h5>
+                <p>
+                    Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+                </p>
+            </div>
+        
+            <div class="mb-4">
+                <h5 class="h5">Design und Implementierung </h5>
+                <p>
+                    <a href="https://daviddimitrov.github.io/" target="_blank">
+                        <img class="dd-logo" src="{{ asset('images/dd_logo.png') }}">
+                        <span class="dd-link">David Dimitrov</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div> 
+{% endblock %}
